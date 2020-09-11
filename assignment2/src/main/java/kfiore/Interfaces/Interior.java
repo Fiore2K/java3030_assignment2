@@ -1,3 +1,7 @@
+package Interfaces;
+
+import Interfaces.Enums.MaterialType;
+
 import java.awt.Color;
 
 public interface Interior {

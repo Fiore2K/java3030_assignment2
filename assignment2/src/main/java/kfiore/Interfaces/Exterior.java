@@ -1,3 +1,7 @@
+package Interfaces;
+
+import Interfaces.Enums.PaintFinish;
+
 import java.awt.Color;
 
 public interface Exterior {

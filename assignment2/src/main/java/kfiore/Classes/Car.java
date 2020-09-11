@@ -1,12 +1,26 @@
+package Classes;
+
 import Interfaces.Engine;
 import Interfaces.Exterior;
 import Interfaces.Interior;
 
 public class Car  {
 
+    /**
+     * Required components of Car listed below
+     */
+
     private Engine engine;
     private Interior interior;
     private Exterior exterior;
+
+    /**
+     * Build Car
+     *
+     * @param engine
+     * @param interior
+     * @param exterior
+     */
 
     public Car(Engine engine, Interior interior, Exterior exterior) {
         this.engine = engine;
