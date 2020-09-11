@@ -1,5 +1,7 @@
+package Interfaces.Enums;
+
 /**
- * This enum describes the different types of engines found in our cars
+ * This enum describes the different types of engines that can be used in Car
  */
 
 public enum FuelType {
